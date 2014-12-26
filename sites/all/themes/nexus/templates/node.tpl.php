@@ -87,7 +87,12 @@
       <?php print render($title_suffix); ?>
   
       <?php if ($display_submitted): ?>
-        
+        <!--2014/12/26
+        <ul class="meta clearfix">
+          <li><strong>Posted on:</strong> <?php print $date; ?></li>
+          <li><strong>By:</strong> <?php print $name; ?></li>   
+        </ul>
+        -->
       <?php endif; ?>
 
     <?php if (!$page): ?>
